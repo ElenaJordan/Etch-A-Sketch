@@ -1,5 +1,18 @@
-* {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+#gridContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 400px;
+  width: 400px;
+}
+
+.column {
+  display: flex;
+  flex: 1;
+}
+
+.cell {
+  flex: 1;
+  background-color: antiquewhite;
+  text-align: center;
 }
